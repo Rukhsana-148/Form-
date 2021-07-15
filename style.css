@@ -1,0 +1,67 @@
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width : 450px;
+    height : 100vh;
+}
+.form{
+    background-color: rgb(245, 241, 241);
+    padding-top: 230px;
+    padding-left: 30px;
+    
+}
+span{
+    font-weight : 600;
+    
+    font-size : 12px;
+    color : rgb(50, 58, 94);
+}
+input{
+    margin-top : 10px;
+    color : rgb(254, 88, 10);
+    padding-left: 12px;
+    font-size : 10px;
+    padding-top: 14px;
+    padding-bottom: 8px;
+    border-radius: 25px;
+    border : none;
+    background-color: rgb(228, 198, 198);
+}
+.btn{
+    margin-top : 50px;
+    width : 75%;
+    background: linear-gradient(rgb(255, 42, 10), rgb(255, 97, 11));
+    color : white;
+}
+.now{
+    margin-top: 40px;
+    text-align: center;
+}
+.now::after{
+    content: '';
+    background : linear-gradient(rgb(255, 42, 10), rgb(255, 97, 11));
+    width : 30%;
+    height : 1px;
+    
+    position: absolute;
+    margin-top : 3%;
+    left : 53%;
+    transform: translateY(-50%);
+}
+.col-sm-3{
+    background: linear-gradient(rgb(255, 200 , 169) , rgb(255, 209, 191), rgb(255, 200, 169), rgb(255, 209 , 191));
+}
+.now::before{
+    content: '';
+    background : linear-gradient(rgb(255, 42, 10), rgb(255, 97, 11));
+    width : 20%;
+    height : 1px;
+    
+    position: absolute;
+    margin-top : 3%;
+    right : 70%;
+    transform: translateY(-50%);
+}
